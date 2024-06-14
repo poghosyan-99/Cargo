@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu{
+    height: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ECE0D7;
+    cursor: pointer;
+    color: #294D68;
+}
+
+.menu .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .logo h1{
+    vertical-align: middle;
+}
+
+.menu img{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 17px;
+}
+
+.menu button{
+    width: 100px;
+    padding: 10px;
+    background-color: #294D68;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+.your-corgo{
+    height: 100vh;
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.your-corgo div{
+    width: 40%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+    padding: 25px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+
+.your-corgo div h2{
+    color: #294D68;
+    font-size: 35px;
+}
+
+.your-corgo div p{
+    color: #333;
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.your-corgo div button{
+    width: 200px;
+    background-color: #F2A543;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+/* --- cargo company ------------------------------------------------------------------------ */
+
+.cargo-company{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cargo-company .right{
+    width: 80%;
+    padding: 30px;
+}
+
+.cargo-company .right h2{
+    width: 60%;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.cargo-company .right p{
+    font-size: 17px;
+    line-height: 1.5;
+    color: #5d5b5b;
+    margin-top: 50px;
+}
+
+.cargo-company .right button{
+    width: 30%;
+    padding: 15px;
+    background-color: #294D68;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+}
+
+/* --- Our services ------------------------------------------------------------------------ */
+
+.our-services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-services .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.our-services .text h2{
+    font-size: 45px;
+}
+
+.our-services .text p{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.our-services .boxes{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    gap: 40px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.our-services .boxes .box{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.our-services .boxes .box h2{
+    color: #333;
+}
+
+.our-services .boxes .box p{
+    padding: 20px 0;
+    color: #333;
+}
+
+.our-services .boxes .box i{
+    font-size: 50px;
+    padding: 30px;
+    color: #EDAC43;
+}
+
+/* ---  Request ------------------------------------------------------------------------------------------------------------------------- */
+
+.request {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    padding: 50px 20px;
+    height: 100vh;
+    background-image: url(img/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.request form {
+    width: 50%;
+    background-color: #ffffff6d;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.request form div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.request form h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.request form div {
+    margin-bottom: 20px;
+}
+
+.request form label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.request form input[type="text"],
+.request form input[type="email"],
+.request form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+    margin-left: 60px;
+}
+
+.request form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.request form button {
+    width: 50%;
+    padding: 15px;
+    background-color: #294D68;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* ---  Our Team ------------------------------------------------------------------------------------------------------------------------- */
+
+.our-team{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.our-team .text{
+    color: #333;
+}
+
+.our-team .text h2{
+    font-size: 30px;
+}
+
+.our-team .text p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 18px;
+}
+
+.our-team .team-members{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.our-team .team-members .member img{
+    height: 280px;
+}
+
+.our-team .team-members .member h3{
+    text-align: center;
+    color: #333;
+    padding: 10px;
+}
+
+/* ---  Contact Us ------------------------------------------------------------------------------------------------------------------------- */
+
+.contact-us{
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-us div{
+    width: 80%;
+    padding: 70px;
+    text-align: center;
+    background-color: #EBDBCC;
+}
+
+.contact-us div h2{
+    font-size: 40px;
+    color: #333;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.contact-us div address{
+    font-size: 22px;
+    color: #333;
+}
+
+.contact-us div button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #294D68;
+    color: #fff;
+    border: none;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+/* ---  Footer ------------------------------------------------------------------------------------------------------------------------- */
+
+.footer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+    background-color: #294D68;
+}
+
+.footer div{
+    width: 300px;
+}
+
+.footer div h3,
+.footer ul h3{
+    color: #fff;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.footer div p,
+.footer ul li{
+    margin-top: 30px;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 17px;
+    list-style: none;
+}
+
